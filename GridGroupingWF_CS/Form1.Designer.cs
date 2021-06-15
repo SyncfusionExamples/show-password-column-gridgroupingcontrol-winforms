@@ -28,22 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gridControl1 = new Syncfusion.Windows.Forms.Grid.GridControl();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // gridControl1
-            // 
-            this.gridControl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl1.Location = new System.Drawing.Point(12, 24);
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.SerializeCellsBehavior = Syncfusion.Windows.Forms.Grid.GridSerializeCellsBehavior.SerializeAsRangeStylesIntoCode;
-            this.gridControl1.Size = new System.Drawing.Size(376, 209);
-            this.gridControl1.SmartSizeBox = false;
-            this.gridControl1.TabIndex = 0;
-            this.gridControl1.Text = "gridControl1";
-            this.gridControl1.UseRightToLeftCompatibleTextBox = true;
             // 
             // Form1
             // 
@@ -57,16 +42,10 @@
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Text = "PushButton-Cell click";
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             this.ResumeLayout(false);
 
         }
-
-
         #endregion
-
-        private Syncfusion.Windows.Forms.Grid.GridControl gridControl1;
-
     }
 }
 
